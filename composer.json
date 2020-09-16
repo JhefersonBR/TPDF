@@ -1,0 +1,19 @@
+{
+    "name": "jheferson-br/tpdf",
+    "description": "Lib em PHP para criação de arquivos PDF. Uso restrito para projetos Adianti",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jheferson Fonseca Gonçalves",
+            "email": "play_jheferson@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
