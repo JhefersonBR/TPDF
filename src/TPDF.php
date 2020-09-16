@@ -129,14 +129,14 @@ class TPDF extends FPDF {
         $this->MemImage($data, $x, $y, $w, $h, $link);
     }
     public function Header() {
-        if (!empty($this->cabecalho)) {
-            call_user_func($this->cabecalho, $this);
+        if (!empty($this->header)) {
+            call_user_func($this->header, $this);
         }
     }
 
     function Footer() {
-        if (!empty($this->rodape)) {
-            call_user_func($this->rodape, $this);
+        if (!empty($this->footer)) {
+            call_user_func($this->footer, $this);
         }
     }
 
