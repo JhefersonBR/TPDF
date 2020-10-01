@@ -33,8 +33,8 @@ class TPDF extends FPDF {
 //Private properties
     var $tmpFiles = array();
     var $fontlist = array();
-    public $cabecalho;
-    public $rodape;
+    public $header;
+    public $footer;
     public $obj;
 
     /*     * *****************************************************************************
