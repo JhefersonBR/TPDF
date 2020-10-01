@@ -1,7 +1,7 @@
 {
     "name": "jheferson-br/tpdf",
     "description": "Lib em PHP para criação de arquivos PDF. Uso restrito para projetos Adianti",
-    "type": "project",
+    "type": "library",
     "license": "mit",
     "autoload": {
         "psr-4": {
